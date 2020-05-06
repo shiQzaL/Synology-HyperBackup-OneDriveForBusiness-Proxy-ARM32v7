@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM arm32v7/node:10-alpine
 MAINTAINER Stefan Kleeschulte
 WORKDIR /usr/src/app
 RUN npm install forever -g
